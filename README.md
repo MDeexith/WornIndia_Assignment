@@ -42,6 +42,26 @@ This project is a **Railway Management System API** inspired by IRCTC. Users can
    git clone https://github.com/yourusername/railway-management-api.git
    cd railway-management-api
 
+2. **How to run the project**:
+   - Create a `.env` file in the root directory and add the following environment variables:
+     ```plaintext
+     PORT=3000
+     DB_HOST=localhost
+     DB_USER=root
+     DB_PASSWORD=password
+
+     JWT_SECRET=mysecretkey
+     API_KEY=supersecretkey
+   ```
+   - Install the dependencies:
+   - Run the server:
+     ```bash
+     npm start
+     ```
+   - The server should be up and running on `http://localhost:3000`.
+   - You can test the API using Postman or any other API client.
+
+
 ## MySQL Database Setup
 
 1. **Create the MySQL Database**:
